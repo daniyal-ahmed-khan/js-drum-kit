@@ -1,0 +1,61 @@
+html {
+    font-size: 10px;
+    background: url(music-studio.jpg) center;
+    background-size: cover;
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.key {
+    border: 6.4px solid silver;
+    border-radius: 8px;
+    margin: 16px;
+    font-size: 24px;
+    padding: 10px 24px;
+    transition: all 0.07s ease; /*transition-timing-function: ease;*/
+    width: 160px;
+    text-align: center;
+    color: white;
+    background: rgba(0.0.0.0.4);
+    text-shadow: 0 0 8px black;
+}
+
+.playing {
+    transform: scale(1.1);
+    border-color: #ffc600;
+    box-shadow: 0 0 16px #ffc600;
+}
+
+kbd {
+    display: block;
+    font-size:24px;
+}
+
+.tunes {
+    font-size: 19.2px;
+    text-transform: uppercase;
+    letter-spacing: 1.6px;
+}
+
+.key-grp1 {
+    margin-top: 250px;
+    display: flex;
+    flex: 1;
+    min-height: 205px;
+    align-items: center;
+    justify-content: center;
+}
+
+.key-grp2 {
+    margin-top: -50px;
+    display: flex;
+    flex: 1;
+    min-height: 205px;
+    align-items: center;
+    justify-content: center;
+}
+
